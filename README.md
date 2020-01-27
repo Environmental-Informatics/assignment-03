@@ -1,11 +1,11 @@
 # Environmental Informatics
 
-## Assignment 02 - Building Complex Prorgams from Smaller Parts
+## Assignment 03 - Using Files with Python
 
 ### Reading Assignment
 
-- [Think Python 2e](https://greenteapress.com/wp/think-python-2e/), Chapters 4-7
-- Remember that assignments at this point in the class are graded mostly on documentation, so read this answer to [How do I use comments effectively?]( https://wiki.itap.purdue.edu/pages/viewpage.action?pageId=47221326) before submitting your assignment.
+- [Think Python 2e](https://greenteapress.com/wp/think-python-2e/), Chapters 8 & 14
+- .
 
 ### Practical Practice
 
@@ -48,3 +48,13 @@
    - Submit a program that produces a table similar to that shown in the problem statement.
    - It is not necessary to match the formatting of the table, but the numbers should be similar.
    - Submit as program_7.1.py
+
+1. Complete the Introduction to Working with Files in Python tutorial at the Environmental Informatics Wiki site.
+2. Write a Python code to do the following
+   - Read the data file 2008Male00006.txt (available through the assignment link).  This file contains output from a Raccoon behavior model which describes the movement of a simulated raccoon named George over the course of a day.  The file is comma separated, expect for the last line which contains only one field that provides George's status at the end of the model simulation.
+   - Write the contents to a new TAB delimited file in the same directory.  The new file should include:
+   - The Date, Time, X and Y coordinates, the Asleep flag and the behavior mode (in that order). 
+   - Also the final state of the Raccoon.
+3. Submit the program needed to complete the assignment, the input file used and the output file created. 
+  - Also include a file named README.txt that indicates the name of the processing script, a description of the processing being completed by the script, and the names of the input (required) and output (created) files.  This is a preliminary Metadata file, these will get more important as we progress with assignments.
+  - To submit, you should archive (e.g., create a zip, 7z, tar, tgz, gz file) the entire directory with the README.txt, Python script, and the input and output files into a single submission file.  In this case, the directory should include your username so that when the archive file is uncompressed your submission directory does not get overwritten.  
