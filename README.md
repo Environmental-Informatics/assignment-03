@@ -27,10 +27,6 @@ But in further research, I have found that this set of document is a better over
 - Complete the [Introduction to Working with Files in Python](https://wiki.itap.purdue.edu/display/environmentalinformatics/Introduction+to+working+with+files+in+Python) tutorial at the [Environmental Informatics Wiki](https://wiki.itap.purdue.edu/display/environmentalinformatics) site.
 - Complete example exercises as needed from the reading materials.
 
-#### Helpful Hints
-
-- 
-
 ### The Lab Assignment
 
 Write a Python code named **"Evaluate_Raccoon_Life.py"** to do the following:
@@ -76,7 +72,6 @@ Write a Python code named **"Evaluate_Raccoon_Life.py"** to do the following:
       - The columns names should be labeled in the first row.
       - Data from each hour of the raccoon's life should be printed on each subsequent row.
       
-
 #### What to turn in...
 
 1. **Source code file named "Evaluate_Raccoon_Life.py"**
