@@ -63,13 +63,13 @@ Write a Python code named **"Evaluate_Raccoon_Life.py"** to do the following:
 6. Finally, the program should:
    a. Create a new output file called "Georges_life.txt".
    b. The file should have a new header block that is formatted as (replace terms in <> with values you got from the file):
-   
+   ```
       Raccoon name: <raccoon name>
       Average location: <X average>, <Y average>
       Distance traveled: <sum of distances>
       Average energy level: <average Energy Level>
       Raccoon end state: <Dead or Alive message>
-   
+   ```
    c. There should be a blank line in between this header block and the next section of the file.
    d. Finally, Write select contents of data dictionary to a new TAB delimited section of the file.  This section should include the columns:
       - Date, Time, X and Y coordinates, the Asleep flag, the behavior mode, and the distance traveled (in that order).
