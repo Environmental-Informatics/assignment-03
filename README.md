@@ -47,22 +47,22 @@ Write a Python code named **"Evaluate_Raccoon_Life.py"** to do the following:
    - This step should result in a data dictionary with each key term refering to a list of values stored as the most appropriate data type.
    
 4. Write functions to:
-   a. Compute the mean or average of a list.
-   b. Compute the cumulative sum of a list.
-   c. Compute the distance between two points, when X and Y coordinates are provided as two lists, one of X-coordinates and one of Y-coordinates.
+   1. Compute the mean or average of a list.
+   1. Compute the cumulative sum of a list.
+   1. Compute the distance between two points, when X and Y coordinates are provided as two lists, one of X-coordinates and one of Y-coordinates.
       - You will pass this function the lists for "X" and "Y", and it should compute the distance between each subsequent set of coordinates, for example compute the distance between ( X\[0\], Y\[0\] ) and ( X\[1\], Y\[1\] ), then the distance between ( X\[1\], Y\[1\] ) and ( X\[2\], Y\[2\] ).
       - Return the distances as a list, and add to the dictionary using the key word "Distance".
       - The first value in the list should be "0", since the raccoon has not yet moved from its starting position.
       - Here is a link to [the distance formula](https://www.mathwarehouse.com/algebra/distance_formula/index.php).
       
 5. Use the functions to:
-   - Add George's movement to the data dictionary.
-   - Compute George's average energy level, and location (average X and Y).
-   - Compute the total distance George moved in his life.
+   1. Add George's movement to the data dictionary.
+   1. Compute George's average energy level, and location (average X and Y).
+   1. Compute the total distance George moved in his life.
    
 6. Finally, the program should:
-   a. Create a new output file called "Georges_life.txt".
-   b. The file should have a new header block that is formatted as (replace terms in <> with values you got from the file):
+   1. Create a new output file called "Georges_life.txt".
+   1. The file should have a new header block that is formatted as (replace terms in <> with values you got from the file):
    ```
       Raccoon name: <raccoon name>
       Average location: <X average>, <Y average>
@@ -70,14 +70,12 @@ Write a Python code named **"Evaluate_Raccoon_Life.py"** to do the following:
       Average energy level: <average Energy Level>
       Raccoon end state: <Dead or Alive message>
    ```
-   c. There should be a blank line in between this header block and the next section of the file.
-   d. Finally, Write select contents of data dictionary to a new TAB delimited section of the file.  This section should include the columns:
+   1. There should be a blank line in between this header block and the next section of the file.
+   1. Finally, Write select contents of data dictionary to a new TAB delimited section of the file.  This section should include the columns:
       - Date, Time, X and Y coordinates, the Asleep flag, the behavior mode, and the distance traveled (in that order).
       - The columns names should be labeled in the first row.
       - Data from each hour of the raccoon's life should be printed on each subsequent row.
       
-
-To submit, you should archive (e.g., create a zip, 7z, tar, tgz, gz file) the entire directory with the README.txt, Python script, and the input and output files into a single submission file.  In this case, the directory should include your username so that when the archive file is uncompressed your submission directory does not get overwritten.  
 
 #### What to turn in...
 
